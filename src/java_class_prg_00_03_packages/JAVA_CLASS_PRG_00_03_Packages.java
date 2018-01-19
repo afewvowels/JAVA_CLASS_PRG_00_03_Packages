@@ -39,6 +39,13 @@ public class JAVA_CLASS_PRG_00_03_Packages {
         
         fullName = name + " Flintstone";
         System.out.println(fullName);
+        
+        // Concatenate to existing string
+        name = name + " Flintstone";
+        System.out.println(name);
+        
+        name += " Flintstone";
+        System.out.println(name);
     }
     
 }
