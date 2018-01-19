@@ -28,6 +28,17 @@ public class JAVA_CLASS_PRG_00_03_Packages {
         // Concatenate combines strings
         System.out.println(name.concat(" Flintstone"));
         System.out.println(name);
+        
+        // Shortcut useable only with Strings
+        String name2 = "Barney";
+        name2 = "Barney Rubble";
+        
+        // Shortcut here is the use '+' instead of concat
+        String fullName = name.concat(" Flintstone");
+        System.out.println(fullName);
+        
+        fullName = name + " Flintstone";
+        System.out.println(fullName);
     }
     
 }
