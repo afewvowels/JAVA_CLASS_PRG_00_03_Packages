@@ -19,9 +19,15 @@ public class JAVA_CLASS_PRG_00_03_Packages {
         String name = new String("Fred");
         //System.out.println(name.charAt(2));
         
+        // Use length to determine string length and
+        // charAt to get character at string index
         for(int i = 0 ; i < name.length() ; i++) {
             System.out.println(name.charAt(i));
         }
+        
+        // Concatenate combines strings
+        System.out.println(name.concat(" Flintstone"));
+        System.out.println(name);
     }
     
 }
